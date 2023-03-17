@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Fraunces:opsz,wght@9..144,600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=DM+Serif+Display:ital@1&family=Dancing+Script:wght@700&family=Gloock&family=Lobster&family=Source+Code+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kalam&family=Kaushan+Script&family=Lobster+Two&family=Poppins:wght@300&display=swap');
+
+/* WHOLE PAGE */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* total WEB-SITE*/
+.dir {
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+/* left */
+.left {
+    /* to set the screen size */
+    width: 25%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("bg1.jpg");
+    background-attachment: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: blue;
+    position: fixed;
+}
+
+/* to set the image of profile */
+#i1 {
+    background-color: #FDF8F0;
+    height: 8.5rem;
+    width: 8.5rem;
+    margin: 20px auto;
+    border-radius: 125px;
+    /* ALWAYS USE BELOW FOR IMAGE SET AS BACKGROUND */
+    background-image: url("WhatsApp Image 2022-09-08 at 12.58.46 PM.jpeg");
+    background-attachment: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.name {
+    color: #FDF8F0;
+    font-size: 2vw;
+    text-align: center;
+    font-family: 'Prata', serif;
+}
+
+#con_nav {
+    margin: 40px auto;
+}
+
+#con_nav a {
+    color: #FDF8F0;
+    font-size: 1.6vw;
+    margin: 10px auto;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+#con_nav li {
+    list-style: none;
+    margin: 40px 0px;
+}
+
+/* right */
+#right {
+    position: relative;
+    left: 25%;
+    height: 100vh;
+    width: 75%;
+    color: white;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.alter b {
+    color: black;
+    font-size: 5vw;
+    padding: 0px;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bolder;
+}
+
+/* for both changing and above */
+.alter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 62vh;
+}
+
+/* text changing whole class */
+.coder {
+    font-size: 50px;
+    height: 70vh;
+    font-family: 'Dancing Script';
+    background-image: url('coder1.jpg');
+    background-attachment: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* FOR ==> CHANGING WORDS*/
+.new1 {
+    color: red;
+}
+
+/* FOR ==> Brijesh Shah */
+.size {
+    font-size: 7vw;
+    color: white;
+}
+
+/* FOR ICONS */
+nav ion-icon {
+    outline: none;
+    border: none;
+    color: #149ddd;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.tog ion-icon {
+    outline: none;
+    border: none;
+    color: dodgerblue;
+    font-size: 30px;
+    background-color: white;
+}
+
+/* 
+.tog {
+    height: 4vh;
+    background-color: black;
+    width: 78%;
+} */
+/* #btn {
+    position: fixed;
+    right: 5px;
+    top: 7px;
+    height: 5.1vh;
+} */
+
+
+.toggle {
+    visibility: hidden;
+    display: block;
+    position: fixed;
+    right: 5px;
+    top: 7px;
+}
+
+/* END */
+
+
+/* MAIN FOR BUTTON SWAP */
+#btn.open .secondicon {
+    display: none;
+}
+
+#btn.open .firsticon {
+    display: block;
+}
+
+/* END */

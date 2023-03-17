@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS -->
+
+    <!-- 1> CSS FOR (MAIN) -->
+    <link rel="stylesheet" href="portfolio.css">
+    <!-- 2> CSS FOR (ABOUT-ME) -->
+    <link rel="stylesheet" href="about-me_p.css">
+    <!-- 3> CSS FOR (SKILLS) -->
+    <link rel="stylesheet" href="skills_p.css">
+    <!-- 4> CSS FOR (CONTACT-US) -->
+    <link rel="stylesheet" href="cont_p.css">
+    <!-- 4> CSS FOR (MEDIA-QUERIES) -->
+    <link rel="stylesheet" href="portfolio_media.css">
+
+</head>
+
+<body>
+    <!-- START FOR BODY -->
+
+    <!-- MAIN (DIR) ==> PART 1> LEFT 2> RIGHT -->
+    <div class="dir" id="home">
+
+        <!-- 1>LEFT -->
+        <div id="left" class="left">
+
+            <div id="i1">
+            </div>
+
+            <div class="name">
+                Brijesh Shah
+            </div>
+
+            <!-- FOR NIGHT MODE ==>
+                <ion-icon name="moon-outline"></ion-icon> -->
+
+            <nav id="con_nav">
+                <ul>
+                    <li><a href="#home"><ion-icon name="home-outline"></ion-icon>Home</a></li>
+                    <li></ion-icon><a href="#about"><ion-icon name="accessibility"></ion-icon>About-Me</a>
+                    </li>
+                    <li><a href="#skill"><ion-icon name="brush"></ion-icon>Skills</a></li>
+                    <li></ion-icon><a href="#contact"><ion-icon
+                                name="chatbox-ellipses-outline"></ion-icon>Contact-Me</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- 2>RIGHT -->
+        <div id="right">
+
+            <!-- PAGE CHANGING
+            <div class="changer">
+                changing window
+            </div> -->
+
+            <!-- TEXT CHANGING -->
+            <div class="coder">
+                <!-- coder, xyz -->
+                <div class="alter">
+                    <h2 class="size">Brijesh Shah</h2>
+                    <b>I'm <span class="new1"></span></b>
+                </div>
+
+                <!-- TOGGLE -->
+                <div class="toggle">
+                <button class="tog" id="btn" onclick="sideshow()"><ion-icon name="close-outline"
+                        class="firsticon icon"></ion-icon><ion-icon class="secondicon icon"
+                        name="menu-outline"></ion-icon></button>
+                </div>
+            </div>
+
+
+            <!-- about-me_p.css -->
+            <p class="me_p" id="about"><b>About-Me</b></p>
+            <hr>
+            <div class="me" data-aos="fade-up">
+                <p class="light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolores odio in quam
+                    sunt minima vero
+                    saepe ab neque magni animi, excepturi iusto itaque! Repudiandae nulla sequi quas, itaque aspernatur
+                    ea debitis adipisci atque a dignissimos corporis ex magnam perferendis delectus nam vitae maxime
+                    deleniti cum? Quia voluptas labore quidem.</p>
+                <br><br>
+                <h2>Android and Web Developer</h2>
+                <!-- MAINPART ==> 1>PART1(FOR IMAGE) 2>PART2(FOR TEXT) -->
+                <div id="mainpart">
+                    <div id="part1"><!-- SELF-IMAGE --></div>
+
+                    <div id="part2">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente nam doloribus natus magni
+                            laboriosam ex est eaque quasi ullam in.</p>
+                        <div class="all">
+                            <div class="one" data-aos="fade-up">
+                                <ul>
+                                    <li class="list"><b>City : </b>Kalol, Gujarat</li>
+                                    <li class="list"><b>Birthday : </b>1 June 2003</li>
+                                    <li class="list"><b>Phone : </b>+91 6354145587</li>
+                                    <li class="list"><b>Age : </b>20</li>
+                                </ul>
+                            </div>
+                            <div class="two" data-aos="fade-up">
+                                <ul>
+                                    <li class="list"><b>Interest : </b>Learning and Exploring</li>
+                                    <li class="list"><b>Collage : </b>Gec Gandhinagar</li>
+                                    <li class="list"><b>Freelance : </b>Available</li>
+                                    <li class="list"><b>Email : </b>brijeshshah654@gmail.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente nam doloribus natus magni
+                            laboriosam ex est eaque quasi ullam in.</p>
+                    </div>
+                </div>
+                <h2 data-aos="fade-up">Education</h2>
+                <br>
+                <ul>
+                    <li>
+                        <p class="light" data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Voluptatem,
+                            modi ratione,
+                            nostrum impedit
+                            laudantium praesentium quos deserunt incidunt animi aliquam ex eligendi porro minima velit.
+                        </p>
+                    </li>
+                    <br>
+                    <li>
+                        <p class="light" data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Voluptatem,
+                            modi ratione,
+                            nostrum impedit
+                            laudantium praesentium quos deserunt incidunt animi aliquam ex eligendi porro minima velit.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+
+            <!-- skills_p.css -->
+            <p class="ski_p" id="skill"><b>Skills</b></p>
+            <hr>
+            <div class="ski">
+                <!-- CARDS -->
+                <div class="card">
+                    <img src="python.png" class="card-img-top" alt="Python" data-aos="fade-up">
+                    <p class="card-title" data-aos="fade-up">Python</p>
+                </div>
+                <div class="card">
+                    <img src="java-programming-language-icon.png" class="card-img-top" alt="Python" data-aos="fade-up">
+                    <p class="card-title" data-aos="fade-up">Java</p>
+                </div>
+                <div class="card">
+                    <img src="js1.png" class="card-img-top" alt="Python" data-aos="fade-up">
+                    <p class="card-title" data-aos="fade-up">Java-Script</p>
+                </div>
+                <div class="card">
+                    <img src="mongodb-icon.png" class="card-img-top" alt="Python" data-aos="fade-up">
+                    <p class="card-title" data-aos="fade-up">Mongo - Db</p>
+                </div>
+            </div>
+            <div class="ski2">
+                <div class="card">
+                    <img src="node-js-icon.png" class="card-img-top" alt="Python" data-aos="fade-up">
+                    <p class="card-title" data-aos="fade-up">Node-js</p>
+                </div>
+                <div class="card">
+                    <img src="c.png" class="card-img-top" alt="Python" data-aos="fade-up">
+                    <p class="card-title" data-aos="fade-up">C</p>
+                </div>
+                <div class="card">
+                    <img src="c++.png" class="card-img-top" alt="Python" data-aos="fade-up">
+                    <p class="card-title" data-aos="fade-up">C++</p>
+                </div>
+                <!-- CARDS -->
+            </div>
+
+
+            <!-- cont_p.css -->
+            <p class="contact_p" id="contact"><b>Contact-Me</b></p>
+            <hr>
+            <!-- FORM FOR WHOLE WINDOW. -->
+            <form method="post" action="#contact" class="form">
+                <!-- CONTACT TO INCLUDE FORM. -->
+                <div class="contact" data-aos="fade-up">
+                    <span>Please Fill Your Details To Contact Me</span>
+                    <br>
+                    <div class="first">
+                        <div class="na" data-aos="fade-up">
+                            <label for="fill1">Name</label>
+                            <input type="text" name="name" class="fill" id="fill1"
+                                placeholder="Please Enter Your Name Here...">
+                        </div>
+                        <br>
+                        <div class="em" data-aos="fade-up">
+                            <label for="na">Email Address</label>
+                            <input type="email" name="email" class="fill" id="na"
+                                placeholder="Please Enter Your Email-Id Here...">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="su" data-aos="fade-up">
+                        <label for="fill2">Subject</label>
+                        <input type="text" name="sub" class="fill" id="fill2"
+                            placeholder="Please Enter Your Subject Here...">
+                    </div>
+                    <br>
+                    <div class="ms" data-aos="fade-up">
+                        <label for="fill3">Your Message</label>
+                        <textarea name="msg" class="fill" id="fill3" placeholder="Please Enter Your Message Here..."
+                            cols="30" rows="10"></textarea>
+                    </div>
+                    <br>
+                    <!-- SUBMIT BUTTON -->
+                    <button class="btn">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- SCRIPT ==> BRAIN -->
+
+    //- <!-- 1> FOR AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    //- <!-- 2> FOR ICONS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    //- <!-- 3> FOR (matt boldt/typed.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    //- <!-- 4> FOR MY JS -->
+    <script src="portfolioNodeJs.js"></script>
+    <script src="portfolioStyle.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Fraunces:opsz,wght@9..144,600&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=DM+Serif+Display:ital@1&family=Dancing+Script:wght@700&family=Gloock&family=Lobster&family=Source+Code+Pro:wght@600&display=swap');
+
+
+.me_p {
+    background-color: white;
+    font-family: 'Source Code Pro', monospace;
+    color: darkblue;
+    margin: 15px 20px;
+    font-size: 2.3vw;
+    text-align: center;
+}
+
+.me {
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Fraunces', serif;
+    padding: 12px 25px;
+    background-image: url(w_bg5.jpg);
+    background-attachment: inherit;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+.me h2 {
+    color: darkblue;
+}
+
+#mainpart {
+    font-family: 'Prata', serif;
+    display: flex;
+    flex-direction: row;
+    /* for responsive */
+    flex-wrap: wrap;
+}
+
+#part1 {
+    /* background-color: lightcyan; */
+    background-image: url("WhatsApp Image 2022-09-08 at 12.58.46 PM.jpeg");
+    background-attachment: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 22px;
+    height: 44vh;
+    background-position: center;
+    /* RESPONSIVE 35%*/
+    width: 32%;
+    margin: 20px 10px;
+    margin-left: 0px;
+}
+
+#part2 {
+    /* RESPONSIVE 70%*/
+    width: 66%;
+    margin: 20px 10px;
+    margin-right: 0px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#part2 p {
+    font-size: 1.3vw;
+}
+
+.all {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.one {
+    font-family: 'Prata', serif;
+    width: 40%;
+}
+
+.two {
+    font-family: 'Prata', serif;
+    font-size: 20px;
+    width: 60%;
+}
+
+.list {
+    color: darkblue;
+    font-size: 1.3vw;
+    width: 100%;
+    margin: 15px 17px;
+}
+
+.light {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 1.4vw;
+    font-weight: lighter;
+}

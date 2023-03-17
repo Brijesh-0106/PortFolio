@@ -1,0 +1,450 @@
+/*  MEDIA QUERIES FOR PHONE */
+@media only screen and (max-width: 600px) {
+    .firsticon {
+        display: none;
+    }
+
+    #i1 {
+        height: 25vw;
+        width: 25vw;
+    }
+
+    .toggle {
+        z-index: 3;
+        visibility: visible;
+    }
+
+    .left {
+        left: -25%;
+    }
+
+    #right {
+        width: 100%;
+        position: inherit;
+    }
+
+
+    .me h2 {
+        font-size: 6.5vw;
+        text-align: center;
+    }
+
+    #part1 {
+        width: 100%;
+        margin: 20px 10px;
+    }
+
+
+    #part2 {
+        width: 100%;
+        margin: 20px 10px;
+    }
+
+    .alter {
+        margin-left: 50px;
+        width: 86%;
+    }
+
+    .size {
+        font-size: 10vw;
+    }
+
+    .alter b {
+        font-size: 7vw;
+    }
+
+    .me_p {
+        font-size: 5.0vw;
+        text-align: center;
+    }
+
+    .light {
+        font-size: 3.4vw;
+    }
+
+    #part2 p {
+        font-size: 3.4vw;
+    }
+
+    .me {
+        padding: 12px 10px;
+    }
+
+    .list {
+        font-size: 2.6vw;
+        margin: 12px 12px;
+    }
+
+    card-title {
+        font-size: 1em;
+    }
+
+    .card {
+        height: 27vh;
+        width: 27vh;
+    }
+
+    .ski_p {
+        font-size: 5vw
+    }
+
+    .contact_p {
+        font-size: 5vw;
+    }
+
+    .form {
+        height: 90vh;
+        justify-content: initial;
+    }
+
+    .contact {
+        font-size: 2.2vw;
+        height: 68vh;
+        width: 100%;
+        justify-content: flex-start;
+        margin: auto auto;
+    }
+
+    .contact span {
+        font-size: 4.4vw;
+    }
+
+    .contact label {
+        font-size: 3.6vw;
+    }
+
+    .btn {
+        height: 4vh;
+        font-size: 3.6vw;
+        color: black;
+        width: 30%;
+    }
+
+    .fill {
+        font-size: 2.3vw;
+        height: 3vh;
+    }
+
+    #fill2 {
+        font-size: 2.3vw;
+    }
+
+    #fill3 {
+        height: 15vh;
+        font-size: 2.3vw;
+    }
+
+    .ski {
+        flex-wrap: wrap;
+    }
+
+    .ski2 {
+        flex-wrap: wrap;
+    }
+
+    #con_nav a {
+        font-size: 13px;
+    }
+
+    .name {
+        font-size: 18px;
+    }
+
+    /* toggle for #left */
+    .visible {
+        display: block;
+        left: 0%;
+        transition: all 0.7s;
+        z-index: 1;
+        width: 45%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-image: url("bg1.jpg");
+        background-attachment: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: blue;
+        position: fixed;
+    }
+
+    .cross {
+        display: block;
+    }
+
+    .bgc {
+        color: white;
+        background-color: #149ddd;
+    }
+}
+
+/*  MEDIA QUERIES FOR LAPTOP TO TABLET */
+@media only screen and (min-width: 1250px) and (max-width: 1400px) {
+    .firsticon {
+        display: none;
+    }
+
+    .toggle {
+        z-index: 3;
+        visibility: visible;
+    }
+
+    #right {
+        width: 100%;
+        position: inherit;
+    }
+
+    .left {
+        left: -25%;
+    }
+
+    .alter {
+        margin-left: 50px;
+        width: 86%;
+    }
+
+    .name {
+        font-size: 24px;
+    }
+
+    #con_nav a {
+        font-size: 18px;
+    }
+
+    /* toggle for #left */
+    .visible {
+        display: block;
+        z-index: 1;
+        width: 29%;
+        left: 0%;
+        transition: all 0.7s;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-image: url("bg1.jpg");
+        background-attachment: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: blue;
+        position: fixed;
+    }
+
+    .icon {
+        color: white;
+        background-color: #149ddd;
+    }
+}
+
+/*  MEDIA QUERIES FOR TABLET TO PHONE */
+@media only screen and (min-width: 950px) and (max-width: 1250px) {
+    .firsticon {
+        display: none;
+    }
+
+    .toggle {
+        z-index: 3;
+        visibility: visible;
+    }
+
+    .alter {
+        margin-left: 50px;
+        width: 86%;
+    }
+
+    #right {
+        width: 100%;
+        position: inherit;
+    }
+
+    .left {
+        left: -25%;
+    }
+
+    .one {
+        width: 100%;
+    }
+
+    .two {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .all {
+        flex-direction: column;
+    }
+
+
+    #mainpart {
+        flex-wrap: nowrap;
+        height: 65vh;
+    }
+
+    #part1 {
+        height: 60vh;
+    }
+
+    #part2 p {
+        font-size: 1.8vw;
+    }
+
+    .list {
+        margin: 17px 17px;
+        font-size: 1.5vw;
+    }
+
+    .light {
+        font-size: 2vw;
+    }
+
+    .name {
+        font-size: 24px;
+    }
+
+    #con_nav a {
+        font-size: 18px;
+    }
+
+    /* toggle for #left */
+    .visible {
+        display: block;
+        z-index: 1;
+        width: 29%;
+        left: 0%;
+        transition: all 0.7s;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-image: url("bg1.jpg");
+        background-attachment: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: blue;
+        position: fixed;
+    }
+}
+
+
+/*  MEDIA QUERIES FOR TABLET TO PHONE */
+@media only screen and (min-width: 600px) and (max-width: 950px) {
+    .firsticon {
+        display: none;
+    }
+
+    .toggle {
+        z-index: 3;
+        visibility: visible;
+    }
+
+    .alter {
+        margin-left: 50px;
+        width: 86%;
+    }
+
+    #right {
+        width: 100%;
+        position: inherit;
+    }
+
+    .left {
+        left: -25%;
+    }
+
+
+    .me h2 {
+        text-align: center;
+    }
+
+    #part2 p {
+        font-size: 1.2rem;
+    }
+
+    #part1 {
+        height: 50vh;
+        width: 50vw;
+        margin: 20px auto;
+        margin-left: auto;
+    }
+
+    #part2 {
+        width: 100%;
+        margin: 20px auto;
+        margin-right: auto;
+    }
+
+    .all {
+        margin: 20px;
+    }
+
+    .one {
+        width: 50%;
+    }
+
+    .one {
+        width: 50%;
+    }
+
+    .list {
+        font-size: 1rem;
+    }
+
+    .light {
+        font-size: 1.2rem;
+    }
+
+    .contact {
+        width: 85%;
+    }
+
+    .contact span {
+        font-size: 1.3rem;
+    }
+
+    .fill {
+        font-size: 0.8rem;
+    }
+
+    #fill2 {
+        font-size: 0.8rem;
+    }
+
+    #fill3 {
+        font-size: 1rem;
+    }
+
+    .contact label {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        color: black;
+        width: 30%;
+
+    }
+
+    #con_nav a {
+        font-size: 18px;
+    }
+
+    .name {
+        font-size: 24px;
+    }
+
+    /* toggle for #left */
+    .visible {
+        display: block;
+        transition: all 0.7s;
+        left: 0%;
+        z-index: 1;
+        width: 35%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-image: url("bg1.jpg");
+        background-attachment: inherit;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: blue;
+        position: fixed;
+    }
+}

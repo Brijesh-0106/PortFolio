@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Fraunces:opsz,wght@9..144,600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=DM+Serif+Display:ital@1&family=Dancing+Script:wght@700&family=Gloock&family=Lobster&family=Source+Code+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/* font-family: 'Prata', serif; */
+/* font-family: 'Poppins', sans-serif; */
+
+/* For Heading */
+.contact_p {
+    background-color: white;
+    font-family: 'Source Code Pro', monospace;
+    color: darkblue;
+    margin: 15px 20px;
+    text-align: center;
+    font-size: 2.3vw;
+}
+
+/* General Form */
+.form {
+    font-family: 'Prata', serif;
+    font-size: 23px;
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-image: url("w_bg5.jpg");
+    background-attachment: inherit;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Every Filling Is Inside Contact */
+.contact {
+    padding: 10px 0px;
+    font-family: Prata, serif;
+    font-size: 20px;
+    height: 75vh;
+    width: 75%;
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: center;
+    color: darkblue;
+    margin: 20px auto;
+}
+
+/* For Whole Name And Email-Id Both In Same Line. */
+.first {
+    display: flex;
+    flex-direction: row;
+}
+
+/* For Whole Name And Input. */
+.na {
+    font-family: 'Prata', serif;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* For Whole Email And Input. */
+.em {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* For Whole Subject And Input */
+.su {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* For Whole Messagebox And Text-Area */
+.ms {
+    font-family: 'Prata', serif;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* For Every Input Element */
+.fill {
+    font-family: 'Prata', serif;
+    font-weight: normal;
+    font-size: 1.3vw;
+    padding: 0px 10px;
+    background-color: transparent;
+    /* border: none; */
+    outline: none;
+    height: 5vh;
+    border-radius: 22px;
+    width: 89%;
+}
+
+/* For Subject. */
+#fill2 {
+    font-size: 1.4vw;
+    width: 95%;
+    font-family: 'Prata', serif;
+}
+
+/* For Text Area. */
+#fill3 {
+    width: 94%;
+    font-size: 1.4vw;
+    border: 2px solid black;
+    font-family: 'Prata', serif;
+    border-radius: 0px;
+    height: 20vh;
+}
+
+/* For Every Input Element. */
+.fill:focus {
+    background-color: white;
+    color: rgb(18, 161, 18);
+}
+
+/* For Subject */
+#fill2:focus {
+    background-color: white;
+    color: rgb(18, 161, 18);
+}
+
+/* For Text Area */
+#fill3:focus {
+    background-color: white;
+    color: rgb(18, 161, 18);
+}
+
+.fill:hover {
+    border: 2px solid red;
+}
+
+/* For Subject */
+#fill2:hover {
+    border: 2px solid red;
+}
+
+/* For Text Area */
+#fill3:hover {
+    border: 2px solid red;
+}
+
+/* Span As Fill Detail Instruction */
+.contact span {
+    background-color: transparent;
+    color: black;
+    margin: 20px;
+    text-align: center;
+    font-size: 1.6vw;
+}
+
+/* Label As Name, Phone-number, Email-Id  */
+.contact label {
+    color: black;
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 1.3vw;
+}
+
+/* Send Message Button */
+.btn {
+    margin: 0px auto;
+    font-family: 'Prata', serif;
+    font-size: 1.3vw;
+    color: black;
+    width: 20%;
+    font-weight: bolder;
+    background-color: transparent;
+    border-radius: 22px;
+    height: 5vh;
+}
